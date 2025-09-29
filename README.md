@@ -5,44 +5,46 @@
 ## 📝 Visão Geral
 
 Este repositório serve como o diário de desenvolvimento oficial do
-projeto Robô LiDAR. Nosso objetivo é (...). Aqui, documentamos nosso
-progresso,desafios e aprendizados em todas as frentes: software, hardware,
-eletrônica e design mecânico.
+projeto LiDAR. Nosso objetivo é desenvolver um LiDAR utilizando um 
+ou mais sensores de distancia infravermelho sendo rotacionado para 
+pegar medidas em 360°. Aqui, documentamos nosso progresso, desafios 
+e aprendizados em todas as frentes: software, hardware,eletrônica 
+e design mecânico.
 
 ## 👥 Equipe
 
 | Nome                 | Cargo no projeto          | GitHub                                     |
 | -------------------- | ------------------------- | ------------------------------------------ |
 | Felipe Queiroz       | Líder de Projeto          | [@FeIipeQueiroz][@FeIipeQueiroz's Profile] |
-| Maike Nascimento     | Secretario de Mesa        | [@DestinyWolf][@DestinyWolf's Profile]     |
-| Paulo Queiroz        | Projetista                | [@PauloQueirozC][@PauloQueirozC's Profile] |
+| Paulo Queiroz        | Secretario de Mesa        | [@PauloQueirozC][@PauloQueirozC's Profile] |
+| Maike Nascimento     | Projetista                | [@DestinyWolf][@DestinyWolf's Profile]     |
 | Gerson Ferreira      | Projetista                | [@gersonfaneto][@gersonfaneto's Profile]   |
 
 ## 🎯 Metas do Projeto
 
 ### Metas atuais
 
-  * **Hardware:** (...).
-  * **Software:** (...).
-  * **Modelagem 3D:** (...).
+  * **Hardware:** Verificar funcionalidades do motor DC para rotação do(os) sensor(res).
+  * **Software:** Nenhuma.
+  * **Modelagem 3D:** Nenhuma.
 
 ### Objetivos Gerais
 
   - **Hardware:**
-    - ...
+    - Vazer um sensor de distancia laser fazer leitura de pontos ao redor do sensor rotacionando ele.
   - **Software:**
-    - ...
+    - Criar um programa que monte um mapa de pontos recebendo a angulação e medida de um sensor de distancia a laser no passar do tempo.
 
 ## 🛠️ Tecnologias e Ferramentas
 
 | Categoria         | Ferramentas                                       |
 | ----------------- | ------------------------------------------------- |
-| **Linguagens**    | (...)                                             |
-| **Frameworks**    | (...)                                             |
-| **Hardware**      | (...)
-| **Modelagem 3D**  | (...)                                             |
-| **Design de PCB** | (...)
-| **Simulação**     | (...)                                             |
+| **Linguagens**    | C++                                               |
+| **Frameworks**    | Nenhum                                            |
+| **Hardware**      | Arduino, Sensor de distancia laser                |
+| **Modelagem 3D**  | Estrutura base do sensor                          |
+| **Design de PCB** | Nenhum
+| **Simulação**     | Nenhum                                            |
 
 -----
 
@@ -65,18 +67,19 @@ decisões que tomamos.
   - **Decisões:**
     - (...)
 
-### Semana 2: (DD/MM/AAAA) - (DD/MM/AAAA)
+### Semana 9: (22/09/2025) - (28/09/2025)
 
 **Foco da Semana:** (...)
 
   * **Software:**
-    - (...)
+    - Nenhum
   * **Hardware & Modelagem 3D:**
-    - (...)
+    - Entendimento do Motor de impressora, resultando na suposição que ele não seria util para o projeto. Foi decidido que vamos tentar executar o projeto com um outro motor.
   * **Desafios:**
-    - (...)
+    - Lista de compra de materiais: Foi percebido que a compra dos sensores + freet + imposto iria utrapassar a marca de R$ 100,00.
   * **Próximos Passos:**
-    - (...)
+    - Entender e testar como o motor novo funciona
+    - Procurar outras formas de conseguir o sensor de distancia laser mais facil e barato.
 
 ## 🚀 Como Contribuir
 
